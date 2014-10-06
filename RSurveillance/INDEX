@@ -1,44 +1,34 @@
 adj.risk                calculate adjusted risk
-ap                      estimate apparent prevalence
-binom.agresti           calculate agresti-coull confidence limits
-binom.cp                calculate clopper pearson exact confidence
-                        limits
-binom.jeffreys          calculate jeffreys confidence limits
+ap                      Apparent prevalence
+binom.agresti           Agresti-Coull confidence limits
+binom.cp                Clopper-Pearson exact confidence limits
+binom.jeffreys          Jeffreys confidence limits
 disc.prior              calculate discounted prior
 epi.calc                calculate effective probability of infection
 n.2stage                calculate 2-stage sample size
-n.ap                    sample size for apparent prevalence (simple
-                        proportion)
+n.ap                    Sample size for apparent prevalence
 n.binom                 calculate sample size assuming sampling with
                         replacement (binomial)
-n.c.freecalc            calculate optimum sample size and cut-point
-                        reactors for given population size and other
-                        parameters using freecalc algorithm all
-                        paramaters must be scalars
-n.c.hp                  all paramaters must be scalars
-n.freecalc              calculate freecalc sample size for given
-                        population size, cut-point number of reactors
-                        and other parameters all paramaters must be
-                        scalars
+n.c.freecalc            Freecalc optimum sample size and specified
+                        cut-point number of reactors
+n.c.hp                  Hypergeometric (HerdPlus) optimum sample size
+                        and specified cut-point number of reactors
+n.freecalc              Freecalc sample size for a finite population
+                        and specified cut-point number of reactors
 n.freedom               calculate sample size usng appropriate method
                         for data provided
-n.hp                    calculate sample size for given population
-                        size, cut-point number of reactors and other
-                        parameters calculates sample size to achieve
-                        specified population sensitivity with
-                        population specificity >= specified minimum
-                        value if not possible to achieve target sep AND
-                        SpH>= minSpH, returns sample size for maximum
-                        achievable sep. all paramaters must be scalars
+n.hp                    Hypergeometric (HerdPlus) sample size for
+                        finite population and specified cut-point
+                        number of reactors
 n.hypergeo              calculate sample size assuming sampling without
                         replacement (hypergeometric)
 n.pfree                 calculate sample size rqued to achieve target
                         confidence of freedom
 n.pooled                sample size for pooled testing for freedom
-n.rb                    calculate sample size for risk=based sampling
+n.rb                    calculate sample size for risk-based sampling
                         \- binomial
 n.rb.varse              sample size for varying sensitivity
-n.tp                    sample size for true prevalence
+n.tp                    Sample size for true prevalence
 pfree.1                 calculate confidence of freedom for a single
                         time period
 pfree.calc              calculate probability (confidence) of freedom
@@ -48,8 +38,7 @@ pfree.equ               calculate equilibrium pfree and equilibrium
                         prior Pfree
 pstar.calc              calculate design prevalence for given sample
                         size anddesired population-level sensitivity
-sd.tp                   function to calculate variance/sd of tp
-                        assuming se and sp known exactly
+sd.tp                   Standard deviation of true prevalence estimate
 se.parallel             calculate combined sensitivity for multiple
                         tests in parallel (assuming independence)
 se.series               calculate combined sensitivity for multiple
@@ -59,13 +48,14 @@ sep                     Population sensitivity function to calculate
                         whether or not N provided
 sep.binom               Population sensitivity assuming sampling with
                         replacement (binomial)
-sep.binom.imperfect     any one input can be a vector, all others must
-                        be either scalars or vectors of the same length
+sep.binom.imperfect     Binomial population sensitivity for imperfect
+                        test
 sep.exact               Population sensitivity assuming census (all
                         units tested)
-sep.freecalc            all inputs are scalars
-sep.hp                  any one input can be a vector, all others must
-                        be either scalars or vectors of the same length
+sep.freecalc            FreeCalc population sensitivity for imperfect
+                        test
+sep.hp                  Hypergeometric (HerdPlus) population
+                        sensitivity for imperfect test
 sep.hypergeo            Population sensitivity assuming sampling
                         without replacement (hypergeometric
                         approximation)
@@ -90,14 +80,14 @@ sep.sys                 population sensitivity from sampling of
 sep.var.se              population sensitivity for varying unit
                         sensitivity
 sph                     Population specificity
-sph.binom               any one input can be a vector, all others must
-                        be either scalars or vectors of the same length
-sph.hp                  HerdPlus herd specificity calculation any one
-                        input can be a vector, all others must be
-                        either scalars or vectors of the same length
+sph.binom               Binomial population specificity for imperfect
+                        test
+sph.hp                  Hypergeometric population specificity
+                        calculation
 sse.combined            update between components to account for lack
                         of independence
 sse.rb.2stage           calculate system sensitivity for 2 stage
                         risk-based sampling
-tp                      estimate true prevalence
-tp.normal               normal approximation CI for tp
+tp                      True prevalence
+tp.normal               Normal approximation confidence limits for true
+                        prevalence
