@@ -15,4 +15,4 @@ Description: This package provides a range of functions for the design and
 License: GPL-2|GPL-3
 LazyLoad: yes
 Imports: epitools, epiR
-Built: R 3.1.1; ; 2014-10-06 06:05:10 UTC; windows
+Built: R 3.1.1; ; 2014-10-09 04:37:40 UTC; windows

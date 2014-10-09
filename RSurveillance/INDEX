@@ -1,93 +1,76 @@
-adj.risk                calculate adjusted risk
+adj.risk                Adjusted risk
 ap                      Apparent prevalence
 binom.agresti           Agresti-Coull confidence limits
 binom.cp                Clopper-Pearson exact confidence limits
 binom.jeffreys          Jeffreys confidence limits
-disc.prior              calculate discounted prior
-epi.calc                calculate effective probability of infection
-n.2stage                calculate 2-stage sample size
+disc.prior              Discounted prior probability of freedom
+epi.calc                Effective probability of infection (EPI)
+n.2stage                2-stage freedom sample size
 n.ap                    Sample size for apparent prevalence
-n.binom                 calculate sample size assuming sampling with
-                        replacement (binomial)
+n.binom                 Binomial sample size
 n.c.freecalc            Freecalc optimum sample size and specified
                         cut-point number of reactors
 n.c.hp                  Hypergeometric (HerdPlus) optimum sample size
                         and specified cut-point number of reactors
 n.freecalc              Freecalc sample size for a finite population
                         and specified cut-point number of reactors
-n.freedom               calculate sample size usng appropriate method
-                        for data provided
+n.freedom               Freedom sample size
 n.hp                    Hypergeometric (HerdPlus) sample size for
                         finite population and specified cut-point
                         number of reactors
-n.hypergeo              calculate sample size assuming sampling without
-                        replacement (hypergeometric)
-n.pfree                 calculate sample size rqued to achieve target
-                        confidence of freedom
-n.pooled                sample size for pooled testing for freedom
-n.rb                    calculate sample size for risk-based sampling
-                        \- binomial
-n.rb.varse              sample size for varying sensitivity
+n.hypergeo              Hypergeometric sample size
+n.pfree                 Sample size to achieve desired (posterior)
+                        probability of freedom
+n.pooled                Sample size for pooled testing for freedom
+n.rb                    Risk-based sample size
+n.rb.varse              Risk-based sample size for varying unit
+                        sensitivity
 n.tp                    Sample size for true prevalence
-pfree.1                 calculate confidence of freedom for a single
-                        time period
-pfree.calc              calculate probability (confidence) of freedom
-                        for given prior, sep and p.intro over 1 or more
-                        time periods
-pfree.equ               calculate equilibrium pfree and equilibrium
-                        prior Pfree
-pstar.calc              calculate design prevalence for given sample
-                        size anddesired population-level sensitivity
+pfree.1                 Probability of freedom for single time period
+pfree.calc              Probability of freedom over time
+pfree.equ               Equilibrium probability of freedom
+pstar.calc              Design prevalence back-calculation
 sd.tp                   Standard deviation of true prevalence estimate
-se.parallel             calculate combined sensitivity for multiple
-                        tests in parallel (assuming independence)
-se.series               calculate combined sensitivity for multiple
-                        tests in series (assuming independence)
-sep                     Population sensitivity function to calculate
-                        seh using most appropriate option depending on
-                        whether or not N provided
-sep.binom               Population sensitivity assuming sampling with
-                        replacement (binomial)
+se.parallel             Sensitivity of tests in parallel
+se.series               Sensitivity of tests in series
+sep                     Population sensitivity
+sep.binom               Binomial Population sensitivity
 sep.binom.imperfect     Binomial population sensitivity for imperfect
                         test
-sep.exact               Population sensitivity assuming census (all
-                        units tested)
+sep.exact               Population sensitivity for census (all units
+                        tested)
 sep.freecalc            FreeCalc population sensitivity for imperfect
                         test
 sep.hp                  Hypergeometric (HerdPlus) population
                         sensitivity for imperfect test
-sep.hypergeo            Population sensitivity assuming sampling
-                        without replacement (hypergeometric
-                        approximation)
-sep.pfree               calcuate population sensitivity for given PFree
-sep.pooled              population sensitivity with pooled sampling
-sep.prior               calcuate population sensitivity for given prior
-                        pfree
-sep.rb.bin              calculate popuation sensitivity for single risk
-                        factor - binomial
-sep.rb.bin.varse        calculate population sensitivity for varying
-                        unit sensitivity - binomial
-sep.rb.hypergeo         calculate population sensitivity for single
-                        risk factor - hypergeometric
-sep.rb.hypergeo.varse   calculate population sensitivity for varying
-                        unit sensitivity - hypergeometric
-sep.rb2.binom           1-stage risk-based sampling with 2 risk factors
-                        - binomial
-sep.rb2.hypergeo        1-stage risk-based sampling with 2 risk factors
-                        - hypergeometric
-sep.sys                 population sensitivity from sampling of
-                        individual clusters
-sep.var.se              population sensitivity for varying unit
+sep.hypergeo            Hypergeometric Population sensitivity
+sep.pfree               Population sensitivity to achieve desired
+                        (posterior) probability of freedom
+sep.pooled              Pooled population sensitivity
+sep.prior               Population sensitivity to achieve desired prior
+                        probability of freedom
+sep.rb.bin              Binomial risk-based population sensitivity
+sep.rb.bin.varse        Binomial risk-based population sensitivity for
+                        varying unit sensitivity
+sep.rb.hypergeo         Hypergeometric risk-based population
+                        sensitivity
+sep.rb.hypergeo.varse   Hypergeometric risk-based population
+                        sensitivity for varying unit sensitivity
+sep.rb2.binom           Binomial risk-based population sensitivity for
+                        2 risk factors
+sep.rb2.hypergeo        Hypergeometric risk-based population
+                        sensitivity for 2 risk factors
+sep.sys                 2-stage population sensitivity
+sep.var.se              Population sensitivity for varying unit
                         sensitivity
 sph                     Population specificity
 sph.binom               Binomial population specificity for imperfect
                         test
 sph.hp                  Hypergeometric population specificity
                         calculation
-sse.combined            update between components to account for lack
-                        of independence
-sse.rb.2stage           calculate system sensitivity for 2 stage
-                        risk-based sampling
+sse.combined            System sensitivity by combining multiple
+                        components
+sse.rb.2stage           Two-stage risk-based system sensitivity
 tp                      True prevalence
 tp.normal               Normal approximation confidence limits for true
                         prevalence
