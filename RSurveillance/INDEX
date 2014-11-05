@@ -63,13 +63,15 @@ sep.rb2.hypergeo        Hypergeometric risk-based population
 sep.sys                 2-stage population sensitivity
 sep.var.se              Population sensitivity for varying unit
                         sensitivity
-sph                     Population specificity
+sp.parallel             Specificity of tests in parallel
+sp.series               Specficity of tests in series
 sph.binom               Binomial population specificity for imperfect
                         test
 sph.hp                  Hypergeometric population specificity
                         calculation
+spp                     Population specificity
 sse.combined            System sensitivity by combining multiple
-                        components
+                        surveillance components
 sse.rb.2stage           Two-stage risk-based system sensitivity
 tp                      True prevalence
 tp.normal               Normal approximation confidence limits for true

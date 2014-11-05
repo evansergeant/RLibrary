@@ -44,9 +44,11 @@ sep.rb2.binom	sep.rb2.binom
 sep.rb2.hypergeo	sep.rb2.hypergeo
 sep.sys	sep.sys
 sep.var.se	sep.var.se
-sph	sph
+sp.parallel	sp.parallel
+sp.series	sp.series
 sph.binom	sph.binom
 sph.hp	sph.hp
+spp	spp
 sse.combined	sse.combined
 sse.rb.2stage	sse.rb.2stage
 tp	tp

@@ -24,9 +24,9 @@ expected_result <- c(0.40000, 0.40000, 0.40000, 0.78400, 0.92224)
 observed_result <- sep.hypergeo(se=0.8, N=N, n=c(5, 25, 50, 125, 250), d = ceiling(0.01*N))
 stopifnot(all(abs(observed_result - expected_result) < tol))
 
-## Test case - sph
+## Test case - spp
 expected_result <- c(0.9043821, 0.8179069, 0.6050061, 0.3660323)
-observed_result <- sph(c(10, 20, 50, 100), 0.99)
+observed_result <- spp(c(10, 20, 50, 100), 0.99)
 stopifnot(all(abs(observed_result - expected_result) < tol))
 
 
@@ -140,6 +140,16 @@ stopifnot(all(abs(observed_result - expected_result) < tol))
 ## Test case - se.parallel
 expected_result <- 0.9999
 observed_result <- se.parallel(c(0.99, 0.95, 0.8))
+stopifnot(all(abs(observed_result - expected_result) < tol))
+
+## Test case - sp.series
+expected_result <- 0.9999
+observed_result <- sp.series(c(0.99, 0.95, 0.8))
+stopifnot(all(abs(observed_result - expected_result) < tol))
+
+## Test case - sp.parallel
+expected_result <- 0.7524
+observed_result <- sp.parallel(c(0.99, 0.95, 0.8))
 stopifnot(all(abs(observed_result - expected_result) < tol))
 
 ## Test case - sep.pooled
