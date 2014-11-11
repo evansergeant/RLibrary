@@ -8,16 +8,16 @@ epi.calc                Effective probability of infection (EPI)
 n.2stage                2-stage freedom sample size
 n.ap                    Sample size for apparent prevalence
 n.binom                 Binomial sample size
-n.c.freecalc            Freecalc optimum sample size and specified
-                        cut-point number of reactors
+n.c.freecalc            Freecalc optimum sample size and cut-point
+                        number of positives
 n.c.hp                  Hypergeometric (HerdPlus) optimum sample size
-                        and specified cut-point number of reactors
+                        and cut-point number of positives
 n.freecalc              Freecalc sample size for a finite population
-                        and specified cut-point number of reactors
+                        and specified cut-point number of positives
 n.freedom               Freedom sample size
 n.hp                    Hypergeometric (HerdPlus) sample size for
                         finite population and specified cut-point
-                        number of reactors
+                        number of positives
 n.hypergeo              Hypergeometric sample size
 n.pfree                 Sample size to achieve desired (posterior)
                         probability of freedom
